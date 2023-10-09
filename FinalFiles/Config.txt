@@ -1,0 +1,2 @@
+private static final String KEY_MISC_SUPER_PRIVACY = "EnableSuperPrivacy";
+

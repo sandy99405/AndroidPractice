@@ -1,0 +1,7 @@
+<SwitchPreferenceCompat
+  android:key="@string/pref_super_privacy"
+  android:title="@string/pref_privacy_title"
+  app:singleLineTitle="false"
+  android:summary="@string/pref_privacy_summary"
+  android:order="18"
+  android:defaultValue="true"/>
