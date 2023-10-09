@@ -8,8 +8,10 @@ private void initSuperPrivacyPrefsCallbacks(){
         {
             boolean newVal = (Boolean) newVal;
             if(isSuperPrivacyEnabled != newVal){
-                 Config.setSuperPrivacyEnabled(newVal);
-                 Utils.(newVal,requireActivity());
+                 SearchRecents.clear();
+                 getAdapter().notifyDataSetChanged();
+/*                  Config.setSuperPrivacyEnabled(newVal);
+                 Utils.(newVal,requireActivity()); */
             }
             return true;
         });
